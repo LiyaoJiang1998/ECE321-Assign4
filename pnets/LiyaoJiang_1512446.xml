@@ -1,5 +1,529 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><pnml>
 <net id="Net-One" type="P/T net">
 <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="1">
+<graphics>
+<position x="150.0" y="105.83333333333333"/>
+</graphics>
+<name>
+<value>1</value>
+<graphics>
+<offset x="-6.5" y="15.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="1_OFF">
+<graphics>
+<position x="150.0" y="143.33333333333334"/>
+</graphics>
+<name>
+<value>1_OFF</value>
+<graphics>
+<offset x="-10.0" y="12.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="2">
+<graphics>
+<position x="150.0" y="202.5"/>
+</graphics>
+<name>
+<value>2</value>
+<graphics>
+<offset x="-5.5" y="15.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="2_FR">
+<graphics>
+<position x="150.0" y="240.0"/>
+</graphics>
+<name>
+<value>2_FR</value>
+<graphics>
+<offset x="-7.5" y="15.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="3">
+<graphics>
+<position x="150.0" y="300.0"/>
+</graphics>
+<name>
+<value>3</value>
+<graphics>
+<offset x="-5.0" y="16.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="3_FR">
+<graphics>
+<position x="150.0" y="337.5"/>
+</graphics>
+<name>
+<value>3_FR</value>
+<graphics>
+<offset x="-6.0" y="12.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="B3_OFF">
+<graphics>
+<position x="703.3333333333334" y="60.0"/>
+</graphics>
+<name>
+<value>B3_OFF</value>
+<graphics>
+<offset x="38.33333333333334" y="-9.444444444444446"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="B3_ON">
+<graphics>
+<position x="665.0" y="60.0"/>
+</graphics>
+<name>
+<value>B3_ON</value>
+<graphics>
+<offset x="30.555555555555557" y="-9.444444444444443"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Clock">
+<graphics>
+<position x="806.6666666666666" y="60.0"/>
+</graphics>
+<name>
+<value>Clock</value>
+<graphics>
+<offset x="30.0" y="-10.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="G1">
+<graphics>
+<position x="150.0" y="397.5"/>
+</graphics>
+<name>
+<value>G1</value>
+<graphics>
+<offset x="-1.0" y="18.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="G3">
+<graphics>
+<position x="150.0" y="442.5"/>
+</graphics>
+<name>
+<value>G3</value>
+<graphics>
+<offset x="-1.0" y="12.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="P1">
+<graphics>
+<position x="325.0" y="485.8333333333333"/>
+</graphics>
+<name>
+<value>P1</value>
+<graphics>
+<offset x="25.0" y="39.66666666666666"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="P1_OFF">
+<graphics>
+<position x="366.6666666666667" y="481.66666666666663"/>
+</graphics>
+<name>
+<value>P1_OFF</value>
+<graphics>
+<offset x="39.44444444444444" y="39.66666666666666"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="P2">
+<graphics>
+<position x="533.3333333333334" y="482.50000000000006"/>
+</graphics>
+<name>
+<value>P2</value>
+<graphics>
+<offset x="26.66666666666666" y="42.05555555555557"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="P2_OFF">
+<graphics>
+<position x="575.0" y="478.3333333333333"/>
+</graphics>
+<name>
+<value>P2_OFF</value>
+<graphics>
+<offset x="41.94444444444446" y="46.944444444444464"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="P3">
+<graphics>
+<position x="750.0" y="487.5"/>
+</graphics>
+<name>
+<value>P3</value>
+<graphics>
+<offset x="26.111111111111107" y="37.22222222222224"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="P3_OFF">
+<graphics>
+<position x="791.6666666666666" y="483.3333333333333"/>
+</graphics>
+<name>
+<value>P3_OFF</value>
+<graphics>
+<offset x="37.777777777777764" y="40.166666666666664"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="S2_OFF">
+<graphics>
+<position x="540.0" y="60.0"/>
+</graphics>
+<name>
+<value>S2_OFF</value>
+<graphics>
+<offset x="40.5" y="-7.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="S2_ON">
+<graphics>
+<position x="503.3333333333333" y="60.0"/>
+</graphics>
+<name>
+<value>S2_ON</value>
+<graphics>
+<offset x="32.0" y="-6.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="T1">
+<graphics>
+<position x="305.0" y="60.0"/>
+</graphics>
+<name>
+<value>T1</value>
+<graphics>
+<offset x="21.5" y="-6.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="T2">
+<graphics>
+<position x="363.3333333333333" y="60.0"/>
+</graphics>
+<name>
+<value>T2</value>
+<graphics>
+<offset x="26.0" y="-8.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="Default-&gt;GreenG1">
+<graphics>
+<position x="350.0" y="151.66666666666666"/>
+</graphics>
+<name>
+<value>Default-&gt;GreenG1</value>
+<graphics>
+<offset x="6.666666666666659" y="15.555555555555543"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Default-&gt;GreenG1S2">
+<graphics>
+<position x="350.0" y="266.6666666666667"/>
+</graphics>
+<name>
+<value>Default-&gt;GreenG1S2</value>
+<graphics>
+<offset x="7.22222222222222" y="18.888888888888882"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Default-&gt;GreenP3">
+<graphics>
+<position x="350.0" y="213.33333333333331"/>
+</graphics>
+<name>
+<value>Default-&gt;GreenP3</value>
+<graphics>
+<offset x="7.777777777777716" y="17.222222222222218"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Default-&gt;GreenP3S2">
+<graphics>
+<position x="350.0" y="313.3333333333333"/>
+</graphics>
+<name>
+<value>Default-&gt;GreenP3S2</value>
+<graphics>
+<offset x="10.555555555555593" y="15.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
 </net>
 </pnml>
