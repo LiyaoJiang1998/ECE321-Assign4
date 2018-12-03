@@ -3,7 +3,7 @@
 <token id="Default" enabled="true" red="0" green="0" blue="0"/>
 <place id="1">
 <graphics>
-<position x="150.0" y="105.83333333333333"/>
+<position x="53.33333333333336" y="180.83333333333334"/>
 </graphics>
 <name>
 <value>1</value>
@@ -23,7 +23,7 @@
 </place>
 <place id="1_OFF">
 <graphics>
-<position x="150.0" y="143.33333333333334"/>
+<position x="53.33333333333336" y="218.33333333333331"/>
 </graphics>
 <name>
 <value>1_OFF</value>
@@ -43,7 +43,7 @@
 </place>
 <place id="2">
 <graphics>
-<position x="150.0" y="202.5"/>
+<position x="53.33333333333336" y="277.5"/>
 </graphics>
 <name>
 <value>2</value>
@@ -63,7 +63,7 @@
 </place>
 <place id="2_FR">
 <graphics>
-<position x="150.0" y="240.0"/>
+<position x="53.33333333333336" y="315.0"/>
 </graphics>
 <name>
 <value>2_FR</value>
@@ -83,7 +83,7 @@
 </place>
 <place id="3">
 <graphics>
-<position x="150.0" y="300.0"/>
+<position x="53.33333333333336" y="375.0"/>
 </graphics>
 <name>
 <value>3</value>
@@ -103,7 +103,7 @@
 </place>
 <place id="3_FR">
 <graphics>
-<position x="150.0" y="337.5"/>
+<position x="53.33333333333336" y="412.5"/>
 </graphics>
 <name>
 <value>3_FR</value>
@@ -123,7 +123,7 @@
 </place>
 <place id="B3_OFF">
 <graphics>
-<position x="703.3333333333334" y="60.0"/>
+<position x="745.0" y="22.5"/>
 </graphics>
 <name>
 <value>B3_OFF</value>
@@ -143,7 +143,7 @@
 </place>
 <place id="B3_ON">
 <graphics>
-<position x="665.0" y="60.0"/>
+<position x="706.6666666666666" y="22.5"/>
 </graphics>
 <name>
 <value>B3_ON</value>
@@ -163,7 +163,7 @@
 </place>
 <place id="Clock">
 <graphics>
-<position x="806.6666666666666" y="60.0"/>
+<position x="848.3333333333333" y="22.5"/>
 </graphics>
 <name>
 <value>Clock</value>
@@ -183,7 +183,7 @@
 </place>
 <place id="G1">
 <graphics>
-<position x="150.0" y="397.5"/>
+<position x="53.33333333333336" y="472.5"/>
 </graphics>
 <name>
 <value>G1</value>
@@ -203,7 +203,7 @@
 </place>
 <place id="G3">
 <graphics>
-<position x="150.0" y="442.5"/>
+<position x="53.33333333333336" y="517.5"/>
 </graphics>
 <name>
 <value>G3</value>
@@ -223,7 +223,7 @@
 </place>
 <place id="P1">
 <graphics>
-<position x="325.0" y="485.8333333333333"/>
+<position x="339.1666666666667" y="722.5"/>
 </graphics>
 <name>
 <value>P1</value>
@@ -243,7 +243,7 @@
 </place>
 <place id="P1_OFF">
 <graphics>
-<position x="366.6666666666667" y="481.66666666666663"/>
+<position x="380.8333333333333" y="718.3333333333334"/>
 </graphics>
 <name>
 <value>P1_OFF</value>
@@ -263,7 +263,7 @@
 </place>
 <place id="P2">
 <graphics>
-<position x="533.3333333333334" y="482.50000000000006"/>
+<position x="547.5" y="719.1666666666666"/>
 </graphics>
 <name>
 <value>P2</value>
@@ -283,7 +283,7 @@
 </place>
 <place id="P2_OFF">
 <graphics>
-<position x="575.0" y="478.3333333333333"/>
+<position x="589.1666666666666" y="715.0"/>
 </graphics>
 <name>
 <value>P2_OFF</value>
@@ -303,7 +303,7 @@
 </place>
 <place id="P3">
 <graphics>
-<position x="750.0" y="487.5"/>
+<position x="764.1666666666666" y="724.1666666666666"/>
 </graphics>
 <name>
 <value>P3</value>
@@ -323,7 +323,7 @@
 </place>
 <place id="P3_OFF">
 <graphics>
-<position x="791.6666666666666" y="483.3333333333333"/>
+<position x="805.8333333333333" y="720.0"/>
 </graphics>
 <name>
 <value>P3_OFF</value>
@@ -343,7 +343,7 @@
 </place>
 <place id="S2_OFF">
 <graphics>
-<position x="540.0" y="60.0"/>
+<position x="581.6666666666666" y="22.5"/>
 </graphics>
 <name>
 <value>S2_OFF</value>
@@ -363,7 +363,7 @@
 </place>
 <place id="S2_ON">
 <graphics>
-<position x="503.3333333333333" y="60.0"/>
+<position x="545.0" y="22.5"/>
 </graphics>
 <name>
 <value>S2_ON</value>
@@ -383,7 +383,7 @@
 </place>
 <place id="T1">
 <graphics>
-<position x="305.0" y="60.0"/>
+<position x="346.6666666666667" y="22.5"/>
 </graphics>
 <name>
 <value>T1</value>
@@ -403,7 +403,7 @@
 </place>
 <place id="T2">
 <graphics>
-<position x="363.3333333333333" y="60.0"/>
+<position x="405.0" y="22.5"/>
 </graphics>
 <name>
 <value>T2</value>
@@ -421,9 +421,61 @@
 <value>0</value>
 </capacity>
 </place>
+<transition id="Default-&gt;DefaultB3">
+<graphics>
+<position x="552.5" y="127.5"/>
+</graphics>
+<name>
+<value>Default-&gt;DefaultB3</value>
+<graphics>
+<offset x="5.555555555555555" y="13.333333333333336"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Default-&gt;DefaultS2">
+<graphics>
+<position x="763.3333333333334" y="129.16666666666666"/>
+</graphics>
+<name>
+<value>Default-&gt;DefaultS2</value>
+<graphics>
+<offset x="1.1111111111111112" y="14.444444444444443"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
 <transition id="Default-&gt;GreenG1">
 <graphics>
-<position x="350.0" y="151.66666666666666"/>
+<position x="309.1666666666667" y="129.16666666666666"/>
 </graphics>
 <name>
 <value>Default-&gt;GreenG1</value>
@@ -447,14 +499,14 @@
 <value>1</value>
 </priority>
 </transition>
-<transition id="Default-&gt;GreenG1S2">
+<transition id="Default-&gt;Night">
 <graphics>
-<position x="350.0" y="266.6666666666667"/>
+<position x="935.8333333333333" y="135.0"/>
 </graphics>
 <name>
-<value>Default-&gt;GreenG1S2</value>
+<value>Default-&gt;Night</value>
 <graphics>
-<offset x="7.22222222222222" y="18.888888888888882"/>
+<offset x="7.222222222222227" y="16.666666666666668"/>
 </graphics>
 </name>
 <orientation>
@@ -473,14 +525,14 @@
 <value>1</value>
 </priority>
 </transition>
-<transition id="Default-&gt;GreenP3">
+<transition id="DefaultB3-&gt;DefaultB3S2">
 <graphics>
-<position x="350.0" y="213.33333333333331"/>
+<position x="765.0" y="202.5"/>
 </graphics>
 <name>
-<value>Default-&gt;GreenP3</value>
+<value>DefaultB3-&gt;DefaultB3S2</value>
 <graphics>
-<offset x="7.777777777777716" y="17.222222222222218"/>
+<offset x="11.444444444444441" y="17.77777777777778"/>
 </graphics>
 </name>
 <orientation>
@@ -499,14 +551,378 @@
 <value>1</value>
 </priority>
 </transition>
-<transition id="Default-&gt;GreenP3S2">
+<transition id="DefaultB3-&gt;GreenP3">
 <graphics>
-<position x="350.0" y="313.3333333333333"/>
+<position x="307.5" y="202.5"/>
 </graphics>
 <name>
-<value>Default-&gt;GreenP3S2</value>
+<value>DefaultB3-&gt;GreenP3</value>
 <graphics>
-<offset x="10.555555555555593" y="15.0"/>
+<offset x="4.222222222222221" y="16.555555555555557"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="DefaultB3-&gt;Night">
+<graphics>
+<position x="937.5" y="210.0"/>
+</graphics>
+<name>
+<value>DefaultB3-&gt;Night</value>
+<graphics>
+<offset x="8.222222222222229" y="19.61111111111111"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="DefaultB3S2-&gt;GreenP3S2">
+<graphics>
+<position x="315.0" y="367.5"/>
+</graphics>
+<name>
+<value>DefaultB3S2-&gt;GreenP3S2</value>
+<graphics>
+<offset x="10.5" y="14.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="DefaultB3S2-&gt;Night">
+<graphics>
+<position x="937.5" y="367.5"/>
+</graphics>
+<name>
+<value>DefaultB3S2-&gt;Night</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="DefaultS2-&gt;DefaultB3S2">
+<graphics>
+<position x="554.1666666666666" y="309.1666666666667"/>
+</graphics>
+<name>
+<value>DefaultS2-&gt;DefaultB3S2</value>
+<graphics>
+<offset x="5.5" y="14.833333333333332"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="DefaultS2-&gt;GreenG1S2">
+<graphics>
+<position x="315.0" y="307.5"/>
+</graphics>
+<name>
+<value>DefaultS2-&gt;GreenG1S2</value>
+<graphics>
+<offset x="5.277777777777775" y="15.61111111111111"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="DefaultS2-&gt;Night">
+<graphics>
+<position x="937.5" y="307.5"/>
+</graphics>
+<name>
+<value>DefaultS2-&gt;Night</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Green2and3-&gt;Default">
+<graphics>
+<position x="757.5" y="592.5"/>
+</graphics>
+<name>
+<value>Green2and3-&gt;Default</value>
+<graphics>
+<offset x="10.5" y="15.5"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Green3-&gt;Default">
+<graphics>
+<position x="315.0" y="592.5"/>
+</graphics>
+<name>
+<value>Green3-&gt;Default</value>
+<graphics>
+<offset x="7.0" y="16.5"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Green3S2-&gt;Green2and3">
+<graphics>
+<position x="562.5" y="592.5"/>
+</graphics>
+<name>
+<value>Green3S2-&gt;Green2and3</value>
+<graphics>
+<offset x="7.0" y="16.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="GreenG1-&gt;Green3">
+<graphics>
+<position x="757.5" y="502.5"/>
+</graphics>
+<name>
+<value>GreenG1-&gt;Green3</value>
+<graphics>
+<offset x="10.0" y="12.5"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="GreenG1S2-&gt;Green3S2">
+<graphics>
+<position x="945.0" y="502.5"/>
+</graphics>
+<name>
+<value>GreenG1S2-&gt;Green3S2</value>
+<graphics>
+<offset x="8.0" y="16.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="GreenP3-&gt;GreenG1">
+<graphics>
+<position x="315.0" y="502.5"/>
+</graphics>
+<name>
+<value>GreenP3-&gt;GreenG1</value>
+<graphics>
+<offset x="6.0" y="14.5"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="GreenP3S2-&gt;GreenG1S2">
+<graphics>
+<position x="562.5" y="502.5"/>
+</graphics>
+<name>
+<value>GreenP3S2-&gt;GreenG1S2</value>
+<graphics>
+<offset x="6.5" y="18.5"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Night-&gt;Default">
+<graphics>
+<position x="945.0" y="592.5"/>
+</graphics>
+<name>
+<value>Night-&gt;Default</value>
+<graphics>
+<offset x="8.5" y="18.5"/>
 </graphics>
 </name>
 <orientation>
