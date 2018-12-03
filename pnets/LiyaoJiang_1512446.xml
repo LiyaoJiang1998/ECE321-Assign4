@@ -1123,6 +1123,19 @@
 <arcpath id="001" x="577" y="517" curvePoint="false"/>
 <type value="normal"/>
 </arc>
+<arc id="3 to Green3-&gt;Default" source="3" target="Green3-&gt;Default">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="83" y="397" curvePoint="false"/>
+<arcpath id="001" x="322" y="614" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="B3_OFF to Default-&gt;DefaultB3" source="B3_OFF" target="Default-&gt;DefaultB3">
 <graphics/>
 <inscription>
@@ -1212,6 +1225,19 @@
 </tagged>
 <arcpath id="000" x="771" y="55" curvePoint="false"/>
 <arcpath id="001" x="952" y="319" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="B3_OFF to Green3-&gt;Default" source="B3_OFF" target="Green3-&gt;Default">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="753" y="54" curvePoint="false"/>
+<arcpath id="001" x="332" y="605" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="B3_OFF to GreenG1-&gt;Green3" source="B3_OFF" target="GreenG1-&gt;Green3">
@@ -2371,6 +2397,84 @@
 <arcpath id="001" x="952" y="529" curvePoint="false"/>
 <type value="normal"/>
 </arc>
+<arc id="G3 to Green3-&gt;Default" source="G3" target="Green3-&gt;Default">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="86" y="542" curvePoint="false"/>
+<arcpath id="001" x="322" y="621" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Green3-&gt;Default to 1" source="Green3-&gt;Default" target="1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="322" y="607" curvePoint="false"/>
+<arcpath id="001" x="80" y="205" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Green3-&gt;Default to B3_OFF" source="Green3-&gt;Default" target="B3_OFF">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="332" y="611" curvePoint="false"/>
+<arcpath id="001" x="753" y="54" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Green3-&gt;Default to P2" source="Green3-&gt;Default" target="P2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="332" y="618" curvePoint="false"/>
+<arcpath id="001" x="553" y="726" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Green3-&gt;Default to S2_OFF" source="Green3-&gt;Default" target="S2_OFF">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="328" y="597" curvePoint="false"/>
+<arcpath id="001" x="591" y="56" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Green3-&gt;Default to T1" source="Green3-&gt;Default" target="T1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="328" y="597" curvePoint="false"/>
+<arcpath id="001" x="356" y="57" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="GreenG1-&gt;Green3 to 3" source="GreenG1-&gt;Green3" target="3">
 <graphics/>
 <inscription>
@@ -2956,6 +3060,19 @@
 <arcpath id="001" x="952" y="218" curvePoint="false"/>
 <type value="normal"/>
 </arc>
+<arc id="S2_OFF to Green3-&gt;Default" source="S2_OFF" target="Green3-&gt;Default">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="591" y="56" curvePoint="false"/>
+<arcpath id="001" x="328" y="597" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="S2_OFF to GreenG1-&gt;Green3" source="S2_OFF" target="GreenG1-&gt;Green3">
 <graphics/>
 <inscription>
@@ -3227,6 +3344,19 @@
 </tagged>
 <arcpath id="000" x="371" y="48" curvePoint="false"/>
 <arcpath id="001" x="952" y="327" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T2 to Green3-&gt;Default" source="T2" target="Green3-&gt;Default">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="415" y="57" curvePoint="false"/>
+<arcpath id="001" x="328" y="597" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T2 to GreenG1-&gt;Green3" source="T2" target="GreenG1-&gt;Green3">
